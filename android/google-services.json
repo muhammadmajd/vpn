@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "169808652911",
+    "project_id": "jeleappstest-8201d",
+    "storage_bucket": "jeleappstest-8201d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169808652911:android:79d89d07d63634f556fb9a",
+        "android_client_info": {
+          "package_name": "com.example.jeleapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd2AS2XZrRCmGbvIAMGlco2YyibzTiiZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169808652911:android:fe2870f1b3d306ac56fb9a",
+        "android_client_info": {
+          "package_name": "com.example.vpn_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd2AS2XZrRCmGbvIAMGlco2YyibzTiiZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

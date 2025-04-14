@@ -1,16 +1,81 @@
-# vpn_app
+# VPN Приложение
 
-small Flutter application consisting of two screens (VPN connection screen, Analytics screen)
+![Логотип приложения](assets/screenshots/history.jpeg)
 
-## Getting Started
+VPN-приложение на базе Flutter с управлением соединениями и отслеживанием аналитики.
 
-This project is a starting point for a Flutter application.
+## 📌 Основные функции
 
-A few resources to get you started if this is your first Flutter project:
+- **Мониторинг соединения**:
+  - Время подключения
+  - Стабильность соединения
+- **Аналитика использования** (Firebase Analytics)
+- **Адаптивный интерфейс** для мобильных устройств и планшетов
+-  CHART
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📸 Структура проекта
+lib/
+├── features/
+│   ├── connection/
+│   │   ├── model/
+│   │   ├── provider/ 
+│   │   └── screens/
+│   └── analytics/
+│       ├── model/
+│       ├── provider/
+│       ├── repository/
+│       └── screens/
+├── app.dart/
+│── firebase_options.dart/
+└── main.dart
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## 📸 Структура тестирования
+test/
+├── connection/
+│   ├── widget/
+│   │   ├── connection_screen_test.dart
+│   │
+│   └─── units/
+│   │     ├── provider/
+│   │     └── models/
+│   └─── ──integration/
+│
+└── helpers/
+
+## 📸 Скриншоты
+
+| Главный экран | Аналитика | Настройки |
+|--------------|-----------|-----------|
+| ![Главный экран](assets/screenshots/home_screen.png) |
+| ![Главный экран](assets/screenshots/connecting.jpeg) |
+| ![Главный экран](assets/screenshots/connect.jpeg) |
+![Аналитика](assets/screenshots/history.jpeg) | 
+
+## 🛠 Технологический стек
+
+- **Flutter** (версия 3.0.0+)
+- **Firebase**:
+    - Firebase Analytics - сбор аналитики
+  к
+- **State management**: Riverpod
+- **Локализация**: intl
+- **Анимации**: Lottie
+- **Анимации**: Lottie
+- ** fl_chart: ^0.70.2
+- **mocktail: ^1.0.3
+- ** flutter_riverpod: ^2.4.9
+- ** sizer: ^3.0.5
+- ** build_runner
+
+## 🔥 Firebase Analytics
+
+Приложение интегрировано с **Firebase Analytics** для сбора следующих данных:
+
+- Время использования приложения
+- Частота подключений
+- Продолжительность сессий
+- География пользователей
+ 
+
+ 
