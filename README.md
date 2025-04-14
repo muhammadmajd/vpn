@@ -14,6 +14,7 @@ VPN-приложение на базе Flutter с управлением сое�
 -  CHART
 
 ## 📸 Структура проекта
+![Структура проекта](assets/screenshots/project.png)
 lib/
 ├── features/
 │   ├── connection/
@@ -31,6 +32,7 @@ lib/
 
 
 ## 📸 Структура тестирования
+| ![Структура тестирования](assets/screenshots/test.png)
 test/
 ├── connection/
 │   ├── widget/
