@@ -1,6 +1,6 @@
 # VPN Приложение
 
-![Логотип приложения](assets/screenshots/history.jpeg)
+![Логотип приложения] 
 
 VPN-приложение на базе Flutter с управлением соединениями и отслеживанием аналитики.
 
@@ -43,21 +43,12 @@ test/
 │
 └── helpers/
 
-## 📸 Скриншоты
-
-| Главный экран | Аналитика | Настройки |
-|--------------|-----------|-----------|
-| ![Главный экран](assets/screenshots/home_screen.png) |
-| ![Главный экран](assets/screenshots/connecting.jpeg) |
-| ![Главный экран](assets/screenshots/connect.jpeg) |
-![Аналитика](assets/screenshots/history.jpeg) | 
-
 ## 🛠 Технологический стек
 
 - **Flutter** (версия 3.0.0+)
 - **Firebase**:
-    - Firebase Analytics - сбор аналитики
-  к
+  - Firebase Analytics - сбор аналитики
+    к
 - **State management**: Riverpod
 - **Локализация**: intl
 - **Анимации**: Lottie
@@ -76,6 +67,16 @@ test/
 - Частота подключений
 - Продолжительность сессий
 - География пользователей
+## 📸 Скриншоты
+
+| Главный экран | Аналитика | Настройки |
+|--------------|-----------|-----------|
+| ![Главный экран](assets/screenshots/home_screen.png) |
+| ![Главный экран](assets/screenshots/connecting.jpeg) |
+| ![Главный экран](assets/screenshots/connect.jpeg) |
+![Аналитика](assets/screenshots/history.jpeg) | 
+
+
  
 
  
