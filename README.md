@@ -15,35 +15,12 @@ VPN-приложение на базе Flutter с управлением сое�
 
 ## 📸 Структура проекта
 ![Структура проекта](assets/screenshots/project.png)
-lib/
-├── features/
-│   ├── connection/
-│   │   ├── model/
-│   │   ├── provider/ 
-│   │   └── screens/
-│   └── analytics/
-│       ├── model/
-│       ├── provider/
-│       ├── repository/
-│       └── screens/
-├── app.dart/
-│── firebase_options.dart/
-└── main.dart
+
 
 
 ## 📸 Структура тестирования
 | ![Структура тестирования](assets/screenshots/test.png)
-test/
-├── connection/
-│   ├── widget/
-│   │   ├── connection_screen_test.dart
-│   │
-│   └─── units/
-│   │     ├── provider/
-│   │     └── models/
-│   └─── ──integration/
-│
-└── helpers/
+
 
 ## 🛠 Технологический стек
 
